@@ -9,6 +9,9 @@
 
 // Your code :
 
+function getFirst (string) {return string.charAt(string.length-1)
+}
+
 //* Begin of tests
 const assert = require('assert')
 

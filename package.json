@@ -1,4 +1,4 @@
-{
+﻿{
   "private": true,
   "index": "primitives.js",
   "tests": [
@@ -129,6 +129,6 @@
   ],
   "scripts": {
     "update": "git reset && git stash && git pull https://github.com/nan-ci/js.git master && git stash pop",
-    "test": "./tester"
+    "test": "./tester basics math"
   }
 }
